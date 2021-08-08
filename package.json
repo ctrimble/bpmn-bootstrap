@@ -1,0 +1,15 @@
+{
+  "name": "bpmn-bootstrap",
+  "version": "1.0.0",
+  "description": "A bootstrap project for BPMN file development.",
+  "main": "index.js",
+  "scripts": {
+    "render": "bpmn-js --type png --output ./output/install.png install.bpmn",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "bpmn-js-cmd": "^0.4.0"
+  }
+}

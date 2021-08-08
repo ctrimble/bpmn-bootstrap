@@ -1,0 +1,40 @@
+{
+  "entries": {
+    "cask": {
+      "camunda-modeler": {
+        "version": "4.9.0",
+        "options": {
+          "full_name": "camunda-modeler"
+        }
+      }
+    },
+    "brew": {
+      "saxon": {
+        "version": "10.5",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/saxon/blobs/sha256:5ee8d289ede04614c9656c1de0945563936d8e73696bbecb35cd8e80859525b7",
+              "sha256": "5ee8d289ede04614c9656c1de0945563936d8e73696bbecb35cd8e80859525b7"
+            }
+          }
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "3.2.6",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "2a2d2b564bda5c357d8bf818c3eaad45ca3b9713",
+        "CLT": "12.4.0.0.1.1610135815",
+        "Xcode": "12.4",
+        "macOS": "10.15.7"
+      }
+    }
+  }
+}
